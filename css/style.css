@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Unbuntu", sans-serif;
+}
+
+.body{
+    background-image: url("./fotos/tempinho.jpg");
+}
+
+
+body {
+    background-image: url("../fotos/clima.jpg");
+    background-repeat: no-repeat;
+   background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.hide{
+    display: none;
+}
+
+.container{
+   background: rgba(255, 255, 255, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 8rem;
+    color: #fdfdfd;
+    border-radius: 1rem;
+}
+
+/* form */
+.form h3{
+    margin-bottom: 3rem;
+    font-size: 2rem;
+}
+
+.form-input-container{
+    display: flex;
+}
+
+.form input{
+    padding: 0.8rem;
+    border: none;
+    flex: 1;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.form button {
+    padding: 0.8rem;
+    min-width: 50px;
+    margin-left: 8px;
+    background-color: #594cee;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+/*Clima*/
+
+#temperature {
+    font-size: 2rem;
+}
+
+#wind{
+    font-size: 1.5rem;
+}
+
+#humidity{
+font-size: 1.5rem;
+
+}
+
+#weather-data{
+    border-top: 1px solid #fff;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem; 
+    text-align: center;
+
+}
+
+
+#weather-data h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .6rem;
+    font-size: 2rem;
+
+}
+
+#weather-data h2 i {
+    font-size: 2rem;
+}
+
+#weather-data span{
+    margin: .6rem;
+}
+
+#country{
+    height: 18px;
+}
+
+#description-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .6rem 0;
+}
+
+#description{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+}
+
+#details-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#details-container #humidity{
+    border-right: 1px solid #fff;
+    margin: .6rem;
+    padding: .6rem;
+
+}
